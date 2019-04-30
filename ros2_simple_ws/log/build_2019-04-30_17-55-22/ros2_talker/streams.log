@@ -1,0 +1,18 @@
+Invoking command in '/home/hsd-rr/ros2_simple_ws/build/ros2_talker': PYTHONPATH=/home/hsd-rr/ros2_simple_ws/install/ros2_talker/lib/python3.5/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hsd-rr/ros2_simple_ws/install/ros2_talker --no-deps install_data --install-dir /home/hsd-rr/ros2_simple_ws/install/ros2_talker
+running develop
+running egg_info
+writing ros2_talker.egg-info/PKG-INFO
+writing requirements to ros2_talker.egg-info/requires.txt
+writing entry points to ros2_talker.egg-info/entry_points.txt
+writing dependency_links to ros2_talker.egg-info/dependency_links.txt
+writing top-level names to ros2_talker.egg-info/top_level.txt
+reading manifest file 'ros2_talker.egg-info/SOURCES.txt'
+writing manifest file 'ros2_talker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hsd-rr/ros2_simple_ws/install/ros2_talker/lib/python3.5/site-packages/ros2-talker.egg-link (link to .)
+Adding ros2-talker 0.0.0 to easy-install.pth file
+Installing talker script to /home/hsd-rr/ros2_simple_ws/install/ros2_talker/lib/ros2_talker
+
+Installed /home/hsd-rr/ros2_simple_ws/build/ros2_talker
+running install_data
+Invoked command in '/home/hsd-rr/ros2_simple_ws/build/ros2_talker' returned '0': PYTHONPATH=/home/hsd-rr/ros2_simple_ws/install/ros2_talker/lib/python3.5/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/hsd-rr/ros2_simple_ws/install/ros2_talker --no-deps install_data --install-dir /home/hsd-rr/ros2_simple_ws/install/ros2_talker

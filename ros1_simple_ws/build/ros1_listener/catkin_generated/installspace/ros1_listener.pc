@@ -1,0 +1,8 @@
+prefix=/home/hsd-rr/ros1_simple_ws/install
+
+Name: ros1_listener
+Description: Description of ros1_listener
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hsd-rr/ros1_simple_ws/install/lib 
+Requires: 

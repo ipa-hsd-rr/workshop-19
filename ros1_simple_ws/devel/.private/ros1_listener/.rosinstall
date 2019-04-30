@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hsd-rr/ros1_simple_ws/devel/.private/ros1_listener/setup.sh

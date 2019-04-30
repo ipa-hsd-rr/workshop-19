@@ -1,0 +1,6 @@
+devel_space: /home/hsd-rr/ros1_simple_ws/devel
+install: false
+install_space: /home/hsd-rr/ros1_simple_ws/install
+profile: default
+source_space: /home/hsd-rr/ros1_simple_ws/src
+workspace: /home/hsd-rr/ros1_simple_ws

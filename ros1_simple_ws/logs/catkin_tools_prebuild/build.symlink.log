@@ -1,0 +1,8 @@
+Symlinking /home/hsd-rr/ros1_simple_ws/devel/./_setup_util.py
+Symlinking /home/hsd-rr/ros1_simple_ws/devel/./setup.sh
+Symlinking /home/hsd-rr/ros1_simple_ws/devel/./setup.zsh
+Symlinking /home/hsd-rr/ros1_simple_ws/devel/./setup.bash
+Symlinking /home/hsd-rr/ros1_simple_ws/devel/./env.sh
+Symlinking /home/hsd-rr/ros1_simple_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/hsd-rr/ros1_simple_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/hsd-rr/ros1_simple_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake

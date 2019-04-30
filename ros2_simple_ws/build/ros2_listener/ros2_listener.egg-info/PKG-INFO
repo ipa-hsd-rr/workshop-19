@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: ros2-listener
+Version: 0.0.0
+Summary: Package containing ros2 python talker.
+Home-page: UNKNOWN
+Author: Ragesh Ramachandran
+Author-email: ragesh.ramachandran@ipa.fraunhofer.de
+Maintainer: 
+Maintainer-email: 
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
