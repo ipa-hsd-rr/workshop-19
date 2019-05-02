@@ -8,7 +8,7 @@ from time import sleep
 class talker(Node):
 
         def __init__(self):
-                super().__init__('talker_ros2')
+                super().__init__('ros2_talker')
                 self.i = 0
                 self.pub = self.create_publisher(String, 'ros2_topic')
                 timer_period = 1.0        #Set the publishing rate
