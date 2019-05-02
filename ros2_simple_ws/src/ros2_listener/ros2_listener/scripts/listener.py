@@ -4,7 +4,7 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
 
-class listener(Node):
+class ros2_listener(Node):
         def __init__(self):
                 super().__init__('ros2_listener')
                 self.sub = self.create_subscription(String, 'ros2_topic', self.callback)
@@ -14,7 +14,7 @@ class listener(Node):
 
 def main():
         rclpy.init()
-        node = listener()         #create node
+        node = ros2_listener()         #create node
         
         rclpy.spin(node)
 

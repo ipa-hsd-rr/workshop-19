@@ -5,7 +5,7 @@ from std_msgs.msg import String
 from time import sleep
 
 
-class talker(Node):
+class ros2_talker(Node):
 
         def __init__(self):
                 super().__init__('ros2_talker')
@@ -24,7 +24,7 @@ class talker(Node):
 
 def main():
         rclpy.init()
-        node = talker()         #create node
+        node = ros2_talker()         #create node
         rclpy.spin(node)
         node.destroy_node()     #destructor
         rclpy.shutdown()        #shutdown node
