@@ -1,22 +1,35 @@
 #!/usr/bin/python
 import rclpy
-import rclpy.logging
+from rclpy.node import Node
 from std_msgs.msg import String
 from time import sleep
 
-def talker():
-    rclpy.init()
-    node = rclpy.create_node('talker_ros2')
-    pub = node.create_publisher(String, 'ros2_topic')
-    message = String()
-    i = 0
-    while rclpy.ok():
-        i += 1
-        message.data = 'ROS_2 talker talking %d'% i
-        print(message.data)
-        pub.publish(message)
-        sleep(1)
+
+class talker(Node):
+
+        def __init__(self):
+                super().__init__('talker_ros2')
+                self.i = 0
+                self.pub = self.create_publisher(String, 'ros2_topic')
+                timer_period = 1.0        #Set the publishing rate
+                self.timer = self.create_timer(timer_period, self.timer_callback)
+
+        def timer_callback(self):
+                message = String()
+                self.i += 1
+                message.data = 'ROS_2 talker talking %d'% self.i
+                self.get_logger().info(message.data)
+                self.pub.publish(message) 
+
+
+def main():
+        rclpy.init()
+        node = talker()         #create node
+        rclpy.spin(node)
+        node.destroy_node()     #destructor
+        rclpy.shutdown()        #shutdown node
+
 
 if __name__ == '__main__':
-    talker()
+    main()
    

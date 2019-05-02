@@ -1,22 +1,31 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
 
 import rclpy
+from rclpy.node import Node
 from std_msgs.msg import String
 
+class listener(Node):
+        def __init__(self):
+                super().__init__('ros2_listener')
+                self.sub = self.create_subscription(String, 'ros2_topic', self.callback)
 
-def callback(message):
-    print( "ROS_2 listener listening to %s"% message.data)
+        def callback(self, message):
+                self.get_logger().info( "ROS_2 listener listening to %s"% message.data)
 
-def listener():
-    rclpy.init()
-    node = rclpy.create_node('ros2_listener')
-    sub = node.create_subscription(String, 'ros2_topic',callback)
-    while rclpy.ok():
-        rclpy.spin_once(node)
+def main():
+        rclpy.init()
+        node = listener()         #create node
+        
+        rclpy.spin(node)
+
+        node.destroy_node()     #destructor
+        rclpy.shutdown()        #shutdown node
+
 
 if __name__ == '__main__':
-    listener()
+    main()
+   
+
 
 
 			

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing entry points to ros2_talker.egg-info/entry_points.txt
+writing ros2_talker.egg-info/PKG-INFO
+writing dependency_links to ros2_talker.egg-info/dependency_links.txt
+writing requirements to ros2_talker.egg-info/requires.txt
+writing top-level names to ros2_talker.egg-info/top_level.txt
+reading manifest file 'ros2_talker.egg-info/SOURCES.txt'
+writing manifest file 'ros2_talker.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hsd-rr/workshop/ros2_simple_ws/install/ros2_talker/lib/python3.5/site-packages/ros2-talker.egg-link (link to .)
+Adding ros2-talker 0.0.0 to easy-install.pth file
+Installing talker script to /home/hsd-rr/workshop/ros2_simple_ws/install/ros2_talker/lib/ros2_talker
+
+Installed /home/hsd-rr/workshop/ros2_simple_ws/build/ros2_talker
+running install_data

@@ -26,6 +26,6 @@ setup(
     license='Apache License, Version 2.0',
     test_suite='test',
     entry_points={
-        'console_scripts': ['talker = ros2_talker.scripts.talker:talker'],#folder_name.node_name:name_of_main_fun
+        'console_scripts': ['talker = ros2_talker.scripts.talker:main'],#folder_name.node_name:name_of_main_fun
     },
 )

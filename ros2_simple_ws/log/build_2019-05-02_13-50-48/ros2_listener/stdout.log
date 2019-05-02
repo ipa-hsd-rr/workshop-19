@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing dependency_links to ros2_listener.egg-info/dependency_links.txt
+writing entry points to ros2_listener.egg-info/entry_points.txt
+writing requirements to ros2_listener.egg-info/requires.txt
+writing top-level names to ros2_listener.egg-info/top_level.txt
+writing ros2_listener.egg-info/PKG-INFO
+reading manifest file 'ros2_listener.egg-info/SOURCES.txt'
+writing manifest file 'ros2_listener.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hsd-rr/workshop/ros2_simple_ws/install/ros2_listener/lib/python3.5/site-packages/ros2-listener.egg-link (link to .)
+ros2-listener 0.0.0 is already the active version in easy-install.pth
+Installing listener script to /home/hsd-rr/workshop/ros2_simple_ws/install/ros2_listener/lib/ros2_listener
+
+Installed /home/hsd-rr/workshop/ros2_simple_ws/build/ros2_listener
+running install_data
