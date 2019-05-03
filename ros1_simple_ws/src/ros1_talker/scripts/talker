@@ -1,0 +1,33 @@
+#!/usr/bin/python
+import rospy
+from std_msgs.msg import String
+
+
+class talker(object):
+    def __init__(self):
+        self.pub = rospy.Publisher('subject_topic', String, queue_size=10)
+        self.rate = rospy.Rate(10)
+        self.i = 0
+
+    def run(self):
+        while not rospy.is_shutdown():
+            self.i += 1
+            message = 'ROS_1 talker %d' % self.i
+            rospy.loginfo(message)
+            self.pub.publish(message)
+            self.rate.sleep()
+
+def main():
+    rospy.init_node('ros1_talker')
+    rate = rospy.Rate(10)
+    talker1 = talker()
+    talker1.run()
+
+if __name__ == '__main__':
+    try:
+        main()
+    except rospy.ROSInterruptException:
+        pass
+
+
+			
