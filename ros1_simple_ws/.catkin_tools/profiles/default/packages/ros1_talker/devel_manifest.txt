@@ -1,4 +1,0 @@
-ros1_talker
-/home/hsd-rr/ros1_simple_ws/devel/.private/ros1_talker/lib/pkgconfig/ros1_talker.pc /home/hsd-rr/ros1_simple_ws/devel/lib/pkgconfig/ros1_talker.pc
-/home/hsd-rr/ros1_simple_ws/devel/.private/ros1_talker/share/ros1_talker/cmake/ros1_talkerConfig.cmake /home/hsd-rr/ros1_simple_ws/devel/share/ros1_talker/cmake/ros1_talkerConfig.cmake
-/home/hsd-rr/ros1_simple_ws/devel/.private/ros1_talker/share/ros1_talker/cmake/ros1_talkerConfig-version.cmake /home/hsd-rr/ros1_simple_ws/devel/share/ros1_talker/cmake/ros1_talkerConfig-version.cmake

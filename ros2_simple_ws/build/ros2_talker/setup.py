@@ -1,1 +1,0 @@
-/home/hsd-rr/workshop/ros2_simple_ws/src/ros2_talker/setup.py

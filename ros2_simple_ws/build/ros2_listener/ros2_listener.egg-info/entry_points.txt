@@ -1,3 +1,0 @@
-[console_scripts]
-listener = ros2_listener.scripts.listener:main
-

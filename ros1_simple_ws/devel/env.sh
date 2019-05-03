@@ -1,1 +1,0 @@
-/home/hsd-rr/ros1_simple_ws/devel/.private/catkin_tools_prebuild/env.sh
