@@ -19,7 +19,6 @@ class ros1_talker(object):
 
 def main():
     rospy.init_node('ros1_talker')
-    rate = rospy.Rate(10)
     talker = ros1_talker()
     talker.run()
 
