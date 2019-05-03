@@ -3,7 +3,7 @@
 <package format="2">
   <name>ros2_listener</name>
   <version>1.0.0</version>
-  <description>An example of ROS1 publisher package</description>
+  <description>An example of ROS2 publisher package</description>
 
   <maintainer email="hsd-rr@ipa.fhg.de">hsd-rr</maintainer>
 
