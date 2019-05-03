@@ -3,7 +3,7 @@ import rospy
 from std_msgs.msg import String
 
 
-class listener(object):
+class ros1_listener(object):
     def __init__(self):
         self.sub = rospy.Subscriber("subject_topic", String, self.callback)
 
@@ -12,7 +12,7 @@ class listener(object):
 
 def main():
     rospy.init_node('ros1_listener')
-    listener()
+    ros1_listener()
     rospy.spin()
 
 if __name__ == '__main__':
