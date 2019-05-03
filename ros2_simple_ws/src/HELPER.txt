@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------------------------------------------
+setup.py template for listener
+
+Copy from here:
+
+from setuptools import setup
+from setuptools import find_packages
+
+package_name = 'ros2_listener'
+
+setup(
+    name=package_name,
+    version='1.0.0',
+    packages=find_packages(exclude=['test']),
+    data_files=[
+        ('share/' + package_name, ['package.xml']),
+    ],
+    install_requires=['setuptools'],
+    author='Ragesh Ramachandran',
+    author_email='ragesh.ramachandran@ipa.fraunhofer.de',
+    maintainer='',
+    maintainer_email='',
+    keywords=['ROS'],
+    classifiers=[
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: Apache Software License',
+        'Programming Language :: Python',
+        'Topic :: Software Development',
+    ],
+    description='Package containing ros2 python talker.',
+    license='Apache License, Version 2.0',
+    test_suite='test',
+    entry_points={
+        'console_scripts': ['listener = ros2_listener.scripts.listener:main'], #folder_name.node_name:name_of_main_fun
+    },
+)
+
+--------------------------------------------------------------------------------------------------------------------
+setup.cfg for the listener
+Copy from here:
+[develop]
+script-dir=$base/lib/ros2_listener
+[install]
+install-scripts=$base/lib/ros2_listener
+
+--------------------------------------------------------------------------------------------------------------------
+package.xml for the listener
+Copy from here:
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>ros2_listener</name>
+  <version>1.0.0</version>
+  <description>An example of ROS1 publisher package</description>
+
+  <maintainer email="hsd-rr@ipa.fhg.de">hsd-rr</maintainer>
+
+  <license>Apache 2.0</license>
+
+
+  <exec_depend>rclpy</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+--------------------------------------------------------------------------------------------------------------------
+
